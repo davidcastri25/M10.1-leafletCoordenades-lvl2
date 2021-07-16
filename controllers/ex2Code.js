@@ -41,7 +41,7 @@ marker.bindPopup("<b>Restaurant Centfocs</b><br><br>Restaurante mediterráneo<br
 
 
 
-/* ////////// Nivel 2 - Fase 1 ////////// */
+/* ////////// Nivel 2 - Fase 1 y 2 ////////// */
 mapFase1.on("click", e => {
     //Primero obtenemos la latitud y longitud del click
     let latLng = mapFase1.mouseEventToLatLng(e.originalEvent);
